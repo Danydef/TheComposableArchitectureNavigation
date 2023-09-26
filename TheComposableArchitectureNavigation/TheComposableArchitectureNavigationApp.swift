@@ -14,8 +14,18 @@ struct TheComposableArchitectureNavigationApp: App {
         WindowGroup {
             ContentView(
               store: Store(
-                initialState: AppFeature.State()) {
+                initialState: AppFeature.State(
+                    inventory: InventoryFeature.State(
+                        items: [
+                            .headphones,
+                            .mouse,
+                            .monitor,
+                            .keyboard
+                        ]
+                    )
+                )) {
                     AppFeature()
+                        ._printChanges()
                 }
               )
         }

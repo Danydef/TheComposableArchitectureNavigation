@@ -18,6 +18,8 @@
 		650E9CDA2AC03D43003652AB /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E9CD92AC03D43003652AB /* InventoryView.swift */; };
 		650E9CDE2AC03D84003652AB /* ThirdTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E9CDD2AC03D84003652AB /* ThirdTabView.swift */; };
 		650E9CE12AC0B430003652AB /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 650E9CE02AC0B430003652AB /* ComposableArchitecture */; };
+		658692112AC2046D005AD2FE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658692102AC2046D005AD2FE /* Models.swift */; };
+		65AA5E042AC213C400AD2BC0 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA5E032AC213C400AD2BC0 /* Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		650E9CD72AC03CCD003652AB /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
 		650E9CD92AC03D43003652AB /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 		650E9CDD2AC03D84003652AB /* ThirdTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabView.swift; sourceTree = "<group>"; };
+		658692102AC2046D005AD2FE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		65AA5E032AC213C400AD2BC0 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			children = (
 				650E9CAA2AC03085003652AB /* TheComposableArchitectureNavigationApp.swift */,
 				650E9CAC2AC03085003652AB /* ContentView.swift */,
+				658692102AC2046D005AD2FE /* Models.swift */,
+				65AA5E032AC213C400AD2BC0 /* Navigation.swift */,
 				650E9CD72AC03CCD003652AB /* FirstTabView.swift */,
 				650E9CD92AC03D43003652AB /* InventoryView.swift */,
 				650E9CDD2AC03D84003652AB /* ThirdTabView.swift */,
@@ -276,7 +282,9 @@
 			files = (
 				650E9CD82AC03CCD003652AB /* FirstTabView.swift in Sources */,
 				650E9CDE2AC03D84003652AB /* ThirdTabView.swift in Sources */,
+				65AA5E042AC213C400AD2BC0 /* Navigation.swift in Sources */,
 				650E9CAD2AC03085003652AB /* ContentView.swift in Sources */,
+				658692112AC2046D005AD2FE /* Models.swift in Sources */,
 				650E9CAB2AC03085003652AB /* TheComposableArchitectureNavigationApp.swift in Sources */,
 				650E9CDA2AC03D43003652AB /* InventoryView.swift in Sources */,
 			);

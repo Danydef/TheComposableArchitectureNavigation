@@ -14,3 +14,6 @@ Espero haber despertado vuestra curiosidad y que como indicáis en el pdf de la 
 
 Saludos
 Daniel Jiménez
+
+Editado: Se añade alert y su test en la vista inventoryView
+

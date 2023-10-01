@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "5DDB03B8-412F-4505-85F9-8CF51DB15DD9",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TheComposableArchitectureNavigation.xcodeproj",
+      "identifier" : "650E9CA62AC03085003652AB",
+      "name" : "TheComposableArchitectureNavigation"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TheComposableArchitectureNavigation.xcodeproj",
+        "identifier" : "650E9CB62AC03087003652AB",
+        "name" : "TheComposableArchitectureNavigationTests"
+      }
+    }
+  ],
+  "version" : 1
+}

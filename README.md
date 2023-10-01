@@ -15,5 +15,8 @@ Espero haber despertado vuestra curiosidad y que como indicáis en el pdf de la 
 Saludos
 Daniel Jiménez
 
-Editado: Se añade alert y su test en la vista inventoryView
+Editado: 
+    - Se añade alert y su test en la vista inventoryView y su gestión en el reducer así como su test
+    - Se añade confirmationDialog (ActionSheet) en la vista inventoryView y su gestión en el reducer así como su test
+    
 

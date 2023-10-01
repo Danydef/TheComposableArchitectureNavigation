@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Dependencies
 
 public struct Item: Equatable, Identifiable {
     public let id: UUID
@@ -19,12 +20,12 @@ public struct Item: Equatable, Identifiable {
         color: Color? = nil,
         status: Status
     ) {
-        self.id = id ?? UUID()
+        @Dependency(\.uuid) var uuid
+        self.id = id ?? uuid()
         self.name = name
         self.color = color
         self.status = status
     }
-    
     
     public enum Status: Equatable {
         case inStock(quantity: Int)

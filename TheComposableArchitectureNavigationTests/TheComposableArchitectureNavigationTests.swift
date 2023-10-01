@@ -40,4 +40,25 @@ final class TheComposableArchitectureNavigationTests: XCTestCase {
         }
     }
     
+    func testDuplicate() async {
+        let item = Item.headphones
+        
+        let store = TestStore(
+            initialState: InventoryFeature.State(items: [item]),
+            reducer:  { InventoryFeature() }
+        ) {
+            $0.uuid = .incrementing
+        }
+        
+        await store.send(.duplicateButtonTapped(id: item.id)) {
+            $0.confirmationDialog = .duplicate(item: item)
+        }
+        
+        await store.send(.confirmationDialog(.presented(.confirmDuplicate(id: item.id)))) {
+            $0.items = [
+                Item(id: UUID(uuidString: "00000000-0000-0000-0000-000000000000"), name: item.name, color: item.color, status: item.status),
+                item
+            ]
+        }
+    }
 }
